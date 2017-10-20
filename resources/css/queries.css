@@ -1,0 +1,51 @@
+@media only screen and (max-width: 991px) {
+  .jumbotron h2 {
+    font-size: 5.7rem;
+  }
+
+  div.project {
+    padding-bottom: 3.571rem;
+  }
+
+    .featured-project .image-container {
+      height: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+  .nav-brand {
+    display: none;
+  }
+
+  .jumbotron h2 {
+    font-size: 3.7rem;
+  }
+
+  .jumbotron p {
+    font-size: 1.2rem;
+  }
+
+  div.project {
+    padding-bottom: 2.143rem;
+  }
+
+  .featured-project,
+  .projects {
+    padding-bottom: 2.85rem;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+
+  .jumbotron .btn-primary {
+     display: none;
+  }
+
+  .featured-project .image-container {
+    padding-bottom: 20px;
+  }
+
+  .featured-project h2 {
+    margin-top: 0;
+  }
+}
